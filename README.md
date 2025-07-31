@@ -17,9 +17,11 @@ headers = {
     'Authorization': f'Bearer {API_KEY}',
 }
 
-params = {'question': '삼성전자의 2025-01-01 고가는?'}
+params = {'question': '삼성전자의 2025-07-25 종가는?'}
 response = requests.get(URL, headers=headers, params=params)
+
 print(response.text)
+# "삼성전자의 2025년 7월 25일 종가는 **65,900원**입니다."
 ```
 
 ```bash
