@@ -1,7 +1,7 @@
 ## 🏃‍➡️From Public Service to Public Heroes – 소집해제!
 
 안녕하세요. 인공지능 학과 대학원생 2명으로 구성된 팀 소집해제 입니다. 아래 내용은 미래에셋증권 AI 페스티벌 'Fin Agent 개발' 설계 문서에 해당합니다. 
-
+<br>
 
 ## ❓ API 사용법 
 
@@ -29,28 +29,25 @@ print(response.text)
 curl -X GET "http://223.130.150.173:8000/agent?question=%ED%82%A4%EC%8A%A4%ED%8A%B8%EB%A1%A0%EC%9D%98+2025-01-01+%EA%B3%A0%EA%B0%80%EC%9D%80%3F" \
 -H "Authorization: Bearer nv-4c..."
 ```
+<br>
 
 
 ## 🙋‍♀️ Overall Pipeline
 ![alt text](pipeline.png)
-1. Yfinance api를 기반으로 데이터를 수집하여, numpy 기반 DB에 저장합니다. 
-
-2. 사용자의 입력에 대해 clova는 tool List 중 입력에 적절하다고 판단하는 tool을 선택합니다.
-
-3. 선택된 tool을 활용, numpy db로부터 데이터를 가져온 후 데이터를 tool에서 처리합니다.
-
-4. 처리된 데이터는 clova에게 전달되고, 이를 기반으로 clova는 최종적인 응답을 생성합니다.
+1. Yfinance api를 기반으로 데이터를 수집하여, numpy 기반 DB에 저장합니다.<br>
+2. 사용자의 입력에 대해 clova는 tool List 중 입력에 적절하다고 판단하는 tool을 선택합니다.<br>
+3. 선택된 tool을 활용, numpy db로부터 데이터를 가져온 후 데이터를 tool에서 처리합니다.<br>
+4. 처리된 데이터는 clova에게 전달되고, 이를 기반으로 clova는 최종적인 응답을 생성합니다.<br>
+<br>
 
 
 ## 💡 Our Strength
-**Problem**
-
-Database로부터 요청된 데이터를 받아오는 시간이 생각보다 오래 소요된다는 것을 파악하였습니다.
-
-**Solution**
-
-이를 개선시키고자 numpy 기반의 데이터베이스를 구축하여 병렬처리를 가능하도록 하였고, 기존의 query 연산 속도보다 **100배** 이상 빠른 검색이 가능해졌습니다!
-
+**Problem**<br>
+Database로부터 요청된 데이터를 받아오는 시간이 생각보다 오래 소요된다는 것을 파악하였습니다.<br>
+<br>
+**Solution**<br>
+이를 개선시키고자 numpy 기반의 데이터베이스를 구축하여 병렬처리를 가능하도록 하였고, 기존의 query 연산 속도보다 **100배** 이상 빠른 검색이 가능해졌습니다!<br>
+<br>
 
 ## 🛠 Tool List
 주어진 Task 1~4를 수행하기 위한 Tool List를 소개합니다! 🙋‍♂️
