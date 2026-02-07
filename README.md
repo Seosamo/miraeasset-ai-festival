@@ -55,49 +55,49 @@ Database로부터 요청된 데이터를 받아오는 시간이 생각보다 오
 ## 🛠 Tool List
 주어진 Task 1~4를 수행하기 위한 Tool List를 소개합니다! 🙋‍♂️
 
-<u>*simple_search*</u>
+* <u>*simple_search*</u>
 : 특정 일자의 시가, 종가, 고가, 저가, 거래량 반환
 
-<u>*search_top*</u>
+* <u>*search_top*</u>
 : 특정 조건에 맞는 상위 종목 n개를 반환
 
-<u>*get_rate*</u>
+* <u>*get_rate*</u>
 : 등락률을 계산
 
-<u>*get_up_or_down_rate*</u>
+* <u>*get_up_or_down_rate*</u>
 : 특정 일자에 대해 상승률/하락률이 높은 n개의 종목을 반환
 
-<u>*count_with_status*</u>
+* <u>*count_with_status*</u>
 : 특정 일자에 상승/하락/거래된 종목의 개수를 반환
 
-<u>*get_all_price*</u>
+* <u>*get_all_price*</u>
 : 특정 일자의 전체 거래 대금을 반환
 
-<u>*kospi_kosdaq_index*</u>
+* <u>*kospi_kosdaq_index*</u>
 : 특정 일자의 코스피/코스닥 지수를 반환
 
-<u>*RSI_compare_at_date*</u>
+* <u>*RSI_compare_at_date*</u>
 : 특정 일자에 RSI 기준과 비교하여 더 높거나 낮은 주식 정보 n개를 반환
 
-<u>*bollinger_compare_at_date*</u>
+* <u>*bollinger_compare_at_date*</u>
 : 특정 일자에 볼린저밴드 하단/상단에 터치한 주식 정보 n개를 반환
 
-<u>*detect_dead_or_golden*</u>
+* <u>*detect_dead_or_golden*</u>
 : 특정 주식의 시점과 종점 사이에서 골든/데드 크로스 각각이 몇 번 발생했는지를 반환
 
-<u>*detect_dead_or_golden_all*</u>
+* <u>*detect_dead_or_golden_all*</u>
 : 시점과 종점 사이에서 골든/데드 크로스가 발생한 주식 정보를 n개를 반환
 
-<u>*is_above_ma*</u>
+* <u>*is_above_ma*</u>
 : 특정 일자에 일정 기간동안의 평균 거래량 / 종가가 일정 비율 이상인 주식 정보를 n개를 반환
 
-<u>*simple_search_with_range*</u>
+* <u>*simple_search_with_range*</u>
 : 특정 범위를 기준으로 데이터를 조회
 
-<u>*diff_with_range*</u>
+* <u>*diff_with_range*</u>
 : 거래량의 변화량 또는 등락률이 특정 범위 사이에 있는 데이터를 조회
 
-<u>*both_volume_rate*</u>
+* <u>*both_volume_rate*</u>
 : 거래량의 변화량과 등락률 모두가 각각 원하는 조건에 해당하는 데이터를 조회
 
 
