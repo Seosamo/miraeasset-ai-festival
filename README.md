@@ -27,7 +27,7 @@ print(response.text)
 
 ```bash
 # bash
-curl -X GET "http://223.130.150.173:8000/agent?question=%ED%82%A4%EC%8A%A4%ED%8A%B8%EB%A1%A0%EC%9D%98+2025-01-01+%EA%B3%A0%EA%B0%80%EC%9D%80%3F" \
+curl -X GET "YOUR_API_URL/agent?question=%ED%82%A4%EC%8A%A4%ED%8A%B8%EB%A1%A0%EC%9D%98+2025-01-01+%EA%B3%A0%EA%B0%80%EC%9D%80%3F" \
 -H "Authorization: Bearer nv-4c..."
 ```
 <br>
