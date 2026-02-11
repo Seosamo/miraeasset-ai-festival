@@ -10,7 +10,7 @@
 # python
 import requests
 
-URL = 'http://223.130.150.173:8000/agent'
+URL = 'YOUR_API_URL'
 
 API_KEY = CLOVA_API_KEY
 
